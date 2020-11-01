@@ -129,6 +129,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 7rem;
+    bottom: auto;
 }
 .location {
     margin-left: 8px;

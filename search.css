@@ -1,0 +1,268 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+header{
+    display: flex;
+    margin: 1.5rem;
+    justify-content: flex-start;
+    width: 90vw;
+}
+
+.title{
+    color: #4285f4;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right: 2rem;
+    justify-self: center;
+}
+
+.title span:nth-child(2){
+  color: red;
+}
+.title span:nth-child(3){
+    color: yellow;
+  }
+  .title  span:nth-child(5){
+    color: green;
+}
+.title  span:nth-child(6){
+    color: red;
+}
+
+.search-area{
+    width: 25rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-area input{
+    border: none;
+}
+.fa-times{
+    margin: 5px;
+    border-right: 1px solid rgb(201, 199, 199);
+    padding: 3px 10px;
+    color: grey;
+}
+.fa-keyboard{
+    margin: 0 15px;
+    color: grey;
+}
+.search-area .fa-search{
+    color: rgb(85, 85, 253);
+}
+
+.sign-in{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.sign-in div{
+    margin-right: 20px;
+}
+
+.fa-ellipsis-v{
+    margin: -2px;
+    color: gray;
+}
+
+.sign-in button{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+}
+
+.sign-in button:hover{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #3b83f8;
+    background-color: #2767cf;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin:2rem auto 1rem 6rem;
+}
+
+.top-tabs{
+    display: flex;
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: .7rem;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+
+.top-tabs div{
+    display: flex;
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    height: 100%;
+}
+
+
+.top-tabs .fas{
+    margin-right: 1rem;
+}
+.top-tabs .far{
+    margin-right: 1rem;
+}
+
+.summary{
+    color: rgb(153, 148, 148);
+    margin-bottom: 1.3rem;
+}
+
+.search{
+    line-height: 1.7rem;
+}
+
+.search-result{
+    margin: 1rem 0px;
+}
+
+.search-result h2{
+    color: blue;
+    cursor: pointer;
+}
+.search-result p{
+    color: rgb(59, 59, 59);
+}
+
+.fa-arrow-alt-circle-down{
+    color: gray;
+    font-size: .7rem;
+}
+.link-search{
+    color: blue;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.grey-text{
+    color: gray;
+    font-size: .8rem;
+    margin-left: .4rem;
+}
+
+.search-questions{
+    margin-bottom: 1.5rem;
+    width: 25rem;
+}
+.search-questions h2{
+    margin-bottom: 1.5rem;
+   
+    
+}
+.search-questions_text{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(218, 215, 215);
+}
+
+.fa-arrow-down{
+    color: rgb(114, 112, 112);
+}
+
+.search-related-text{
+    display: flex;
+    color: blue;
+}
+.left-text{
+    margin-right: 2rem;
+}
+.search-related-text p{
+    cursor: pointer;
+}
+
+.search-related{
+    margin-bottom: 2rem;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.google{
+    color: blue;
+    font-size: 2rem;
+}
+.google span:nth-child(1){
+    color: red;
+}
+
+.google span:nth-child(2){
+    color: yellow;
+}
+.google span:nth-child(3){
+    color: green;
+}
+.google span:nth-child(4){
+    color: red;
+}.fa-arrow-right{
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.page-number{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(211, 209, 209);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    bottom: auto;
+}
+.location {
+    margin-left: 8px;
+}
+
+.bottom-footer{
+    border-top: 1px solid rgb(173, 173, 173);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left{
+    display: flex;
+}
+.left p{
+    margin-left: 8px;
+}
+.right{
+    display: flex;
+  
+}
+.right p{
+      margin-right: 8px;
+}
+
